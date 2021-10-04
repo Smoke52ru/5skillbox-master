@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+  url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+  url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+  url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: #222020;
+
+}
+
+.title {
+  color: white;
+  font-family: 'Graphik LCG', sans-serif;
+  margin-bottom: 30px;
+}
+
+.download {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  background-color: #2f1ce4;
+  border: 3px solid #2f1ce4;
+
+}
+
+.detail {
+  color: #ffffff;
+  display: inline-block;
+  padding: 20px;
+  border: 3px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.0);
+
+
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+
+}
+
+.back {
+  padding-left: 30px;
+  background-image: url("/img/return.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.info {
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+}
+
+.title-program {
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.lists {
+  padding-left: 200px;
+  font-size: 18px;
+
+}
+
+.paragraph {
+  padding-left: 180px;
+  margin-bottom: 20px;
+
+}
+
+.table {
+  margin-top: 100px;
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+
+.table th, .table td {
+  padding: 5px;
+  border: 1px solid black;
+
+}
+
+.dop-fig {
+  padding-left: 200px;
+  text-align: center;
+  display: inline-block;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.img {
+  max-width: 600px;
+}
+
+/* 5 блок домашнее задание */
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+  margin: 0;
+}
+
+.logo {
+  max-width: 137px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.back {
+  color: #3F2AFF;
+  padding: 0;
+  margin: 25px 0;
+  display: block;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.back img {
+  margin: 0 7px 3px 0;
+}
+
+.site-header {
+  color: #3F2AFF;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+
+  margin: 25px 0;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 50px 0;
+}
+
+.card {
+  width: 572px;
+  height: 505px;
+  background: #fff;
+  margin-bottom: 25px;
+
+  filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.1));
+}
+
+.card .image {
+  width: 572px;
+  height: 180px;
+}
+
+.card .image1 {
+  background: url("../img/photo1.png");
+}
+
+.card .image2 {
+  background: url("../img/photo2.png");
+}
+
+.card .image3 {
+  background: url("../img/photo3.png");
+}
+
+.card .image4 {
+  background: url("../img/photo4.png");
+}
+
+.card-description {
+  display: block;
+  padding: 25px;
+}
+
+.card-description .card-header {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+
+  margin: 0 0 2px 0;
+
+
+  color: #3F2AFF;
+}
+
+.card-description ul {
+  padding: 0;
+}
+
+.card-description .card-text {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 165%;
+
+  display: block;
+
+  color: #333333;
+}
+
+.card-number {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  color: #EAEAEA;
+
+}
+
+.show-more-button {
+  display: block;
+  width: 274px;
+  padding: 17px 35px;
+  margin: 0 auto;
+
+  border: 2px solid #3F2AFF;
+  box-sizing: border-box;
+}
+
+.show-more-text {
+  display: block;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+  text-align: center;
+
+  color: #3F2AFF;
+}
