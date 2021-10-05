@@ -183,8 +183,12 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
   line-height: 23px;
 }
 
-.back img {
+.back .arrow {
+  display: inline-block;
   margin: 0 7px 3px 0;
+  width: 46px;
+  height: 8px;
+  background: url("../img/Arrow 1.svg");
 }
 
 .site-header {

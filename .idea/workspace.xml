@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8759c8be-ba21-4197-a5d0-5d1a3b01eb8b" name="Default Changelist" comment="" />
+    <list default="true" id="8759c8be-ba21-4197-a5d0-5d1a3b01eb8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +22,9 @@
   </component>
   <component name="EditorConfigPreviewManager">
     <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/modules.html" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1yAMp3HBLz0UyPaobJ8b8Hs7l5i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,11 +66,38 @@
       <workItem from="1631791959743" duration="6059000" />
       <workItem from="1631900044048" duration="3595000" />
       <workItem from="1633353481537" duration="5561000" />
+      <workItem from="1633359129376" duration="849000" />
+      <workItem from="1633366090743" duration="714000" />
+      <workItem from="1633457829494" duration="788000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1633359254939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633359254939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="88" key="#Intentions" timestamp="1631699299503">
@@ -65,18 +108,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="558" y="299" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1631692236188" />
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1631695067232">
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1633359546526">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1631695067232" />
-    <state x="662" y="327" key="Github.ShareDialog" timestamp="1633358920489">
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1633359546526" />
+    <state x="662" y="327" key="Github.ShareDialog" timestamp="1633359552150">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="662" y="327" key="Github.ShareDialog/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1633358920489" />
+    <state x="662" y="327" key="Github.ShareDialog/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1633359552150" />
+    <state x="517" y="132" key="RollbackChangesDialog" timestamp="1633366150092">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="517" y="132" key="RollbackChangesDialog/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1633366150092" />
     <state x="301" y="74" key="SettingsEditor" timestamp="1631695072210">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="74" key="SettingsEditor/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1631695072210" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1633359330118">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1633359330118" />
+    <state x="589" y="331" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1633359542330">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="589" y="331" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1633359542330" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1631691740602">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
